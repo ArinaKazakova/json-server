@@ -1,16 +1,66 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "list": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "text": "Отправить отчет",
+      "category": "Работа",
+      "status": false
+    },
+    {
+      "id": 1,
+      "text": "Распечатать контрольные",
+      "category": "Учеба",
+      "status": false
+    },
+    {
+      "id": 1,
+      "text": "Подписать документы",
+      "category": "Учеба",
+      "status": false
+    },
+    {
+      "id": 0.255590159160237,
+      "status": false,
+      "text": "Помыть полы",
+      "category": "Дом"
+    },
+    {
+      "id": 0.6667017017625396,
+      "status": false,
+      "text": "Помыть окна",
+      "category": "Дом"
+    },
+    {
+      "id": 0.48501808052687134,
+      "status": false,
+      "text": "Помочь брату",
+      "category": "Дом"
+    }
+  ],
+  "category": [
+    {
+      "text": "Работа",
+      "id": 0
+    },
+    {
+      "text": "Учеба",
+      "id": 2
+    },
+    {
+      "id": 0.7219842559284586,
+      "text": "Дом"
+    },
+    {
+      "id": 0.7638473158896806,
+      "text": "Хобби"
+    },
+    {
+      "id": 0.5754919990976177,
+      "text": "Школа"
+    },
+    {
+      "id": 0.3690269555407759,
+      "text": "Документы"
     }
   ]
 }
